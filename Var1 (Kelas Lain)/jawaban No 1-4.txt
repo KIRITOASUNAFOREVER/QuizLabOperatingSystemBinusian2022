@@ -1,0 +1,16 @@
+1.
+
+mkdir -p "Sword Store"/SwordType/RegularSword "Sword Store"/SwordType/BigSword "Sword Store"/Material/Cobalt "Sword Store"/Material/Palladium "Sword Store"/Material/Mythril
+
+
+2.
+
+touch "Sword Store"/Material/ReadMe.txt;echo "Price formula = (Damage * 100) + Material Price" >> "Sword Store"/Material/ReadMe.txt
+
+3.
+
+find "Sword Store" -empty -delete
+
+4.
+
+free --mebi
