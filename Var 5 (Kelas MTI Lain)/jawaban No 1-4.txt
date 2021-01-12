@@ -1,0 +1,14 @@
+1.
+mkdir "Coffee Store"/{"Coffee Types"/{"Espresso","Macchiato"},"Order List","Stock List"/"Coffe Beans"} -p
+
+2.
+
+touch "Coffee Store"/"Order List"/Order1.txt;chmod 444 "Coffee Store"/"Order List"/Order1.txt
+
+3.
+
+find "Coffee Store" -type f -perm -444
+
+4.
+
+TOP -u root

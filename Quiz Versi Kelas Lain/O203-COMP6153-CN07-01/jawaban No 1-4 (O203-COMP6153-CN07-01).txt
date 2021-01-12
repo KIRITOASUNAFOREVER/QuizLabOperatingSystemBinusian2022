@@ -1,0 +1,15 @@
+1.
+
+mkdir -p Shop/Contacts/Suppliers Shop/Contacts/Manufacturers Shop/Contacts/Customers Shop/Products/HDD Shop/Products/SSD
+
+2.
+
+touch Contacts/Suppliers/Suppliers.txt;chmod 754 Contacts/Suppliers/Suppliers.txt
+
+3.
+
+find Contacts -name *.txt
+
+4.
+
+TOP -o -pid

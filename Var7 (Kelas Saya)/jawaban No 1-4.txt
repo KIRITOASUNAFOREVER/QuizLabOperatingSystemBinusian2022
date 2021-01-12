@@ -1,0 +1,14 @@
+1.
+mkdir -p monitor/"19 inch"/"60 Hz" monitor/"19 inch"/"120 Hz" monitor/"19 inch"/"144 Hz" monitor/"24 inch"/"60 Hz" monitor/"24 inch"/"120 Hz" monitor/"24 inch"/"144 Hz"
+
+2.
+
+touch monitor/"19 inch"/"60 Hz"/"GL HD TV.txt"; chmod 755 monitor/"19 inch"/"60 Hz"/"GL HD TV.txt"
+
+3.
+
+find monitor/"19 inch"/"60 Hz" -name "*GL HD TV".txt
+
+4.
+
+ps au --sort=-%cpu

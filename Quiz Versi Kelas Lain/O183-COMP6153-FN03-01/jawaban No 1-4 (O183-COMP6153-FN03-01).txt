@@ -1,0 +1,15 @@
+1.
+
+mkdir -p "Coffee Shop"/Menu/Drinks/Coffee "Coffee Shop"/Menu/Drinks/Tea "Coffee Shop"/Menu/Desserts "Coffee Shop"/"Contact Us"
+
+2.
+
+Touch “Contact Us”/”Contact.txt”; chmod 755 “Contact Us”/”Contact.txt”
+
+3.
+
+find "Coffee Shop" -iname "*.txt" -size -1M
+
+4.
+
+TOP -o -PID
