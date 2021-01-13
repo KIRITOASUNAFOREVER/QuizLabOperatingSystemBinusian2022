@@ -1,0 +1,16 @@
+1.
+
+mkdir -p BookStore/Products/RegularBook BookStore/Products/PremiumBook BookStore/Categories/Comedy BookStore/Categories/Romance BookStore/Categories/Fiction
+
+
+2.
+
+touch BookStore/Categories/Category.txt;chmod 761 BookStore/Categories/Category.txt
+
+3.
+
+find BookStore -iname "*.txt" -size -500k
+
+4.
+
+top -u root
